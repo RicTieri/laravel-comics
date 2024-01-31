@@ -59,12 +59,13 @@ $socialsLink = [
 ?>
 
 <footer>
-    <section class="upper-footer">
-        <div class="wrapper">
-            <nav>
-                <div>
+  <section class="upper-footer">
+    <div class="container">
+        <div class="row">
+            <nav class="row col-6 py-5">
+                <div class="col-4">
                     @foreach ($pageLinks as $linkGroup)
-                        <ul>
+                        <ul class="p-0">
                             <h2 class="text-uppercase text-white">{{ $linkGroup['title'] }}</h2>
                             @foreach ($linkGroup['links'] as $link)
                                 <li>
@@ -74,28 +75,37 @@ $socialsLink = [
                         </ul>
                     @endforeach
                 </div>
-                <ul>
-                    <h2>{{ $aboutUs['title'] }}</h2>
-                    @foreach ($aboutUs['links'] as $link)
-                        <li>
-                            <a href="{{ $link['link'] }}">{{ $link['name'] }}</a>
-                        </li>
-                    @endforeach
-                </ul>
-                <ul>
-                    <h2>{{ $referralLink['title'] }}</h2>
-                    @foreach ($referralLink['links'] as $link)
-                        <li>
-                            <a href="{{ $link['link'] }}">{{ $link['name'] }}</a>
-                        </li>
-                    @endforeach
-                </ul>
+                <div class="col-4">
+                  <ul class="p-0">
+                      <h2 class="text-uppercase text-white">{{ $aboutUs['title'] }}</h2>
+                      @foreach ($aboutUs['links'] as $link)
+                          <li>
+                              <a href="{{ $link['link'] }}">{{ $link['name'] }}</a>
+                          </li>
+                      @endforeach
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="p-0">
+                      <h2 class="text-uppercase text-white">{{ $referralLink['title'] }}</h2>
+                      @foreach ($referralLink['links'] as $link)
+                          <li>
+                              <a href="{{ $link['link'] }}">{{ $link['name'] }}</a>
+                          </li>
+                      @endforeach
+                  </ul>
+                </div>
+                <div class="col-10 text-light">
+                  <p>All Site Content TM and C 2020 DC Entertainment, unless Otherwise <a href="#" class="text-accent">noted here</a>. Al rights reserved, <a href="#" class="text-accent">Cookies Settings</a></p>
+                </div>
             </nav>
-            <div class="bg-logo">
+            <div class="col-6 bg-logo align-self-stretch px-5">
+              <img src="{{ Vite::asset('resources/assets/img/dc-logo-bg.png')}}" alt="">
             </div>
         </div>
-    </section>
-    <section class="down-footer">
+  </section>
+    </div>
+    <section class="down-footer m-0">
         <div class="container d-flex justify-content-between py-5">
             <button class="text-uppercase border border-1 border-primary text-white fw-bolder px-4">sign-up now!</button>
             <nav class="navbar">

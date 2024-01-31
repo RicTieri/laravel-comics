@@ -22,9 +22,29 @@ main{
 }
 
 footer{
+
   .upper-footer{
     background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  
+  
+
+        a{
+          color: $light;
+          text-decoration: none;
+        }
+        
+        .text-accent{
+          color: $accent-color;
+        }
+      .bg-logo{
+        // background-image: url(../assets/img/dc-logo-bg.png);
+        scale: 1.2;
+      }
   }
+  
   .down-footer{
     background-color: $footer-bg;
 
