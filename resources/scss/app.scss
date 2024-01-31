@@ -1,1 +1,13 @@
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700&display=swap');
+
+.jumbotron {
+  background: url('../assets/img/jumbotron.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
