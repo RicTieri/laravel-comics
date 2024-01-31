@@ -1,6 +1,5 @@
-<?php 
-
-$links = [
+@php
+  $links = [
     [
     'title'=> 'characters',
     'link'=> '#',
@@ -57,7 +56,7 @@ $links = [
         ],
     ],
 ]
-?>
+@endphp
 
 <header>
   <nav class="navbar container navbar-expand-lg">

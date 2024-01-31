@@ -1,4 +1,4 @@
-<?php
+@php
 $pageLinks = [
     [
         'title' => 'dc comics',
@@ -56,7 +56,8 @@ $socialsLink = [
     ['name' => 'pinterest', 'path' => 'footer-pinterest.png', 'link' => '#'],
     ['name' => 'periscope', 'path' => 'footer-periscope.png', 'link' => '#'],
 ];
-?>
+@endphp
+
 
 <footer>
   <section class="upper-footer">
