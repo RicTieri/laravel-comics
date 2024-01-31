@@ -4,6 +4,12 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700&display=swap');
 
+header{
+  .search-icon{
+    height: 20px;
+  }
+}
+
 .jumbotron {
   background: url('../assets/img/jumbotron.jpg');
   height: 400px;
@@ -19,6 +25,21 @@ main{
     img{
     aspect-ratio: 1/1;
   }}
+
+    .wrapper {
+    width: $base-width;
+    position: relative;
+    margin: 0 auto;
+    .section-title{
+      position: absolute;
+      text-transform: uppercase;
+      background-color: $accent-color;
+      top: -20px;
+      left: 0;
+      padding: .25rem 1rem;
+    }
+    
+  }
 }
 
 section.banner{

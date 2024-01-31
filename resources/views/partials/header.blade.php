@@ -84,9 +84,13 @@
           @endforeach
         </ul>
       </div>
-      <form class="d-flex me-0" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+      <form class="d-flex align-items-center" role="search">
+        <div class="border-bottom border-primary">
+          <input class=" p-0 py-1 m-0 border-0 text-end" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn text-white p-0 pb-1" type="submit">
+            <img class="search-icon" src="https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-3/256/magnifying-glass-512.png" alt="search icon">
+          </button>
+        </div>
       </form>
     </div>
   </nav>

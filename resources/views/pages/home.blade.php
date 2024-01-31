@@ -6,6 +6,11 @@ DC Comics
 @endsection
 
 @section('main-content')
+<div class="wrapper">
+  <h2 class="section-title text-uppercase text-white">
+    current series
+  </h2>
+</div>
 <section class="comics">
   <div class="container py-5 ">
     <div class="row py-5">
