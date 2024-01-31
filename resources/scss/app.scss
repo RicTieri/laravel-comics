@@ -11,3 +11,12 @@
   background-position: top;
   background-size: cover;
 }
+
+main{
+  background-color: $main-bg;
+  div.card {
+    background-color: transparent;
+    img{
+    aspect-ratio: 1/1;
+  }}
+}

@@ -61,8 +61,8 @@ $links = [
 
 <header>
   <nav class="navbar container navbar-expand-lg">
-    <div class="container justify-content-between">
-      <a class="navbar-brand" href="#">
+    <div class="container">
+      <a class="navbar-brand me-5 pe-5" href="#">
         <img src="{{Vite::asset('resources/assets/img/dc-logo.png')}}" alt="Dc logo">
       </a>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -85,11 +85,11 @@ $links = [
           @endforeach
         </ul>
       </div>
-    </div>
-      <form class="d-flex" role="search">
+      <form class="d-flex me-0" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+    </div>
   </nav>
 </header>
 
