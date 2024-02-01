@@ -59,6 +59,23 @@
 @endphp
 
 <header>
+  <div class="container-fluid bg-primary ">
+    <ul class="container navbar-nav d-flex flex-row justify-content-end">
+          <li class="nav-item me-5 pe-5">
+            <a class="nav-link active text-uppercase text-white me-5 pe-5" aria-current="page" href=""><small>dc power&#8482; visa&#174;</small></a>
+          </li>
+            <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle text-uppercase text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <small>
+                additional dc sites
+              </small>
+              </a>
+             <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="#">link 1</a></li>
+              </ul>
+            </li>
+        </ul>
+  </div>
   <nav class="navbar container navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand me-5 pe-5" href="#">
